@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1725968798 source:d:\test-git\dev1\git101\main.c
+	<stdio.h>
+	<stdlib.h>
+	"user.h"
+
+1725968849 d:\test-git\dev1\git101\user.h
+	"create.h"
+
+1725968851 d:\test-git\dev1\git101\create.h
+	<stdio.h>
+	"user.h"
+

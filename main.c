@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include "user.h"
+#include "user.h"
 
-//User users[MAX_USERS];
+User users[MAX_USERS];
 int userCount = 0;
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                //createUser();
+                createUser();
                 break;
             case 2:
                 //listUsers();
